@@ -24,7 +24,7 @@ const Exportcomponent = () => {
 
     <div class="product-grid">
       <div class="product-card">
-        <img src="/driedcatfish.jpg" alt="Dried Catfish" />
+        <img src="/Driedcatfish.jpg" alt="Dried Catfish" />
         <h3>Dried Catfish</h3>
         <p>Premium sun-dried Nigerian catfish, rich in flavor and perfect for soups and stews.</p>
       </div>
@@ -36,61 +36,61 @@ const Exportcomponent = () => {
       </div>
 
       <div class="product-card">
-        <img src="//garri-cassava-flakes.png" alt="Garri" />
+        <img src="/garri-cassava-flakes.png" alt="Garri" />
         <h3>Garri (Cassava Flakes)</h3>
         <p>High-quality garri made from fresh cassava, great for soaking or cooking.</p>
       </div>
 
       <div class="product-card">
-        <img src="//yamflour.jpeg" alt="Yam Flour" />
+        <img src="/yamflour.jpeg" alt="Yam Flour" />
         <h3>Yam Flour (Elubo)</h3>
         <p>Finely processed yam flour used in making amala — a favorite Nigerian meal.</p>
       </div>
 
       <div class="product-card">
-        <img src="//ogbona-seeds.png" alt="Ogbono Seeds" />
+        <img src="/ogbona-seeds.png" alt="Ogbono Seeds" />
         <h3>Ogbono Seeds</h3>
         <p>Authentic ogbono seeds sourced from local Nigerian farmers for export.</p>
       </div>
 
       <div class="product-card">
-        <img src="//crayfish.png" alt="Crayfish" />
+        <img src="/crayfish.png" alt="Crayfish" />
         <h3>Crayfish</h3>
         <p>Clean, dried crayfish — a key ingredient in many Nigerian dishes.</p>
       </div>
 
       <div class="product-card">
-        <img src="//melon_seeds.jpg"  alt="Egusi" />
+        <img src="/melon_seeds.jpg"  alt="Egusi" />
         <h3>Melon Seeds (Egusi)</h3>
         <p>High-grade melon seeds used in making egusi soup, a Nigerian delicacy.</p>
       </div>
 
       <div class="product-card">
-        <img src="//dried_pepper.png" nalt="Dried Pepper" />
+        <img src="/dried_pepper.png" nalt="Dried Pepper" />
         <h3>Dried Pepper Mix</h3>
         <p>A mix of dried chili and bell peppers for rich, spicy Nigerian meals.</p>
       </div>
 
       <div class="product-card">
-        <img src="//honey.jpg" alt="Honey" />
+        <img src="/honey.jpg" alt="Honey" />
         <h3>Honey</h3>
         <p>Freshly dried bitter leaves used in traditional Nigerian soups.</p>
       </div>
 
       <div class="product-card">
-        <img src="//cashew_nut.jpeg" alt="Cashew Nut" />
+        <img src="/cashew_nut.jpeg" alt="Cashew Nut" />
         <h3>Cashew Nut</h3>
         <p>Crispy, delicious plantain chips made from ripe and unripe plantains.</p>
       </div>
 
       <div class="product-card">
-        <img src="//millet.jpeg" alt="Millet Flour" />
+        <img src="/millet.jpeg" alt="Millet Flour" />
         <h3>Millet Flour</h3>
         <p>Dried hibiscus leaves for making zobo drink, popular across Nigeria.</p>
       </div>
 
       <div class="product-card">
-        <img src="//Groundnut.jpg"  alt="Groundnut" />
+        <img src="/Groundnut.jpg"  alt="Groundnut" />
         <h3>Groundnut (Peanuts)</h3>
         <p>Roasted or raw groundnuts, freshly packed for local and international supply.</p>
       </div>

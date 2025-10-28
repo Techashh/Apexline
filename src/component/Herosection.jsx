@@ -191,7 +191,7 @@ const Herosection = () => {
 
         <div className="services-grid">
           <div className="service-card">
-            <img src=" /public/best_sea.jpg" alt="Ocean Freight" />
+            <img src=" /best_sea.jpg" alt="Ocean Freight" />
             <div className="service-content">
               <h3>OCEAN FREIGHT SHIPPING</h3>
               <p>Reliable sea freight solutions connecting major ports worldwide.</p>
@@ -200,7 +200,7 @@ const Herosection = () => {
           </div>
 
           <div className="service-card">
-            <img src=" /public/plane-at-gate.webp" alt="Air Freight" />
+            <img src=" /plane-at-gate.webp" alt="Air Freight" />
             <div className="service-content">
               <h3>AIR FREIGHT SHIPPING</h3>
               <p>Fast and secure air cargo transport for urgent shipments.</p>
@@ -209,7 +209,7 @@ const Herosection = () => {
           </div>
 
           <div className="service-card">
-            <img src="/ public/Truck-Freight-Shipping-Step-by-Step-Process.jpg" alt="Car Shipping" />
+            <img src="/Truck-Freight-Shipping-Step-by-Step-Process.jpg" alt="Car Shipping" />
             <div className="service-content">
               <h3>CAR SHIPPING</h3>
               <p>Professional vehicle transport services with full tracking and insurance.</p>
