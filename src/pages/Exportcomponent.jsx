@@ -36,7 +36,7 @@ const Exportcomponent = () => {
       </div>
 
       <div class="product-card">
-        <img src="/garri-cassava-flakes.png" alt="Garri" />
+        <img src="/Garri-cassava-flakes.png" alt="Garri" />
         <h3>Garri (Cassava Flakes)</h3>
         <p>High-quality garri made from fresh cassava, great for soaking or cooking.</p>
       </div>
@@ -60,7 +60,7 @@ const Exportcomponent = () => {
       </div>
 
       <div class="product-card">
-        <img src="/melon_seeds.jpg"  alt="Egusi" />
+        <img src="/Melon_seeds.jpg"  alt="Egusi" />
         <h3>Melon Seeds (Egusi)</h3>
         <p>High-grade melon seeds used in making egusi soup, a Nigerian delicacy.</p>
       </div>
