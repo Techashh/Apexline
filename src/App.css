@@ -46,11 +46,11 @@
 
 /* Example slide backgrounds (customize or remove) */
 .swiper-slide:nth-child(1) .slide-inner {
-  background-image: url( "public/banner3.jpg" );
+  background-image: url( "/public/banner3.jpg" );
 }
 
 .swiper-slide:nth-child(2) .slide-inner {
-  background-image: url( "public/banner.5.jpg" );
+  background-image: url( "/public/banner.5.jpg" );
 }
 
 .swiper-slide:nth-child(3) .slide-inner {
