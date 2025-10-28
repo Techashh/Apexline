@@ -54,7 +54,7 @@
 }
 
 .swiper-slide:nth-child(3) .slide-inner {
-  background-image: url( "public/banner2.png" );
+  background-image: url( "/public/banner2.png" );
 } 
 
 /* ====== Navigation Buttons ====== */
@@ -176,7 +176,7 @@ background-color: white;
   height: 80vh;
   width: 100%;
     position:relative;
-    background-image: url(public/banner3.jpg);
+    background-image: url(/public/banner3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     animation: Slider 30s infinite;
@@ -188,19 +188,19 @@ background-color: white;
 }
 @keyframes Slider {
   10%{
-    background-image: url(  public/banner3.jpg );
+    background-image: url(  /public/banner3.jpg );
   }
   30%{
-    background-image: url( public/banner2.png);
+    background-image: url( /public/banner2.png);
   }
   50%{
-    background-image: url(public/banner4.jpg  ); 
+    background-image: url( /public/banner4.jpg  ); 
 }
   70%{
-    background-image: url( public/banner5.jpg);
+    background-image: url( /public/banner5.jpg);
   }
   90%{
-    background-image: url(public/container-shipping-change-over-time.jpg);
+    background-image: url( /public/container-shipping-change-over-time.jpg);
   }
 }
 .ovalay{
@@ -323,7 +323,7 @@ background-color: white;
 }
 .ovalays {
   position: relative;
-  background: url('public/best_sea.jpg') center/cover no-repeat;
+  background: url('/public/best_sea.jpg') center/cover no-repeat;
   height: 80vh; /* adjust as needed */
   background-attachment: fixed;
   display: flex;

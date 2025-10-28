@@ -24,13 +24,13 @@ const Exportcomponent = () => {
 
     <div class="product-grid">
       <div class="product-card">
-        <img src="/public/driedcatfish.jpg" alt="Dried Catfish" />
+        <img src="public/driedcatfish.jpg" alt="Dried Catfish" />
         <h3>Dried Catfish</h3>
         <p>Premium sun-dried Nigerian catfish, rich in flavor and perfect for soups and stews.</p>
       </div>
 
       <div class="product-card">
-        <img src="/public/palm-oil-food.jpg" alt="Palm Oil"/>
+        <img src="public/palm-oil-food.jpg" alt="Palm Oil"/>
         <h3>Palm Oil</h3>
         <p>Pure, natural red palm oil from Nigeria — used for cooking and export worldwide.</p>
       </div>
