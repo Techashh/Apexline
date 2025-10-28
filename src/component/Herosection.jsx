@@ -284,7 +284,7 @@ const Herosection = () => {
         <div className="why-choose">
           <div className="why-choose-container">
             <div className="why-left">
-              <img src="/public/why-choose-us.jpg" alt="Handshake" />
+              <img src="/why-choose-us.jpg" alt="Handshake" />
             </div>
 
             <div className="why-middle">

@@ -48,7 +48,7 @@ const Import = () => {
 
 
       <div class="product-card">
-        <img src="/Grand_cherokee.jpg" alt="Jeep Grand Cherokee" />
+        <img src="/Grand_Cherokee.jpg" alt="Jeep Grand Cherokee" />
         <h3>Jeep Grand Cherokee</h3>
         <p>Powerful and refined SUV known for its luxury interior and excellent off-road capability. Ideal for both city and adventure driving.</p>
       </div>
