@@ -48,7 +48,7 @@ const Import = () => {
 
 
       <div class="product-card">
-        <img src="/grand_cherokee.jpg" alt="Jeep Grand Cherokee" />
+        <img src="/Grand_cherokee.jpg" alt="Jeep Grand Cherokee" />
         <h3>Jeep Grand Cherokee</h3>
         <p>Powerful and refined SUV known for its luxury interior and excellent off-road capability. Ideal for both city and adventure driving.</p>
       </div>
@@ -67,7 +67,7 @@ const Import = () => {
 
 
       <div class="product-card">
-        <img src="/mercedes.png" alt="Mercedes Sprinter" />
+        <img src="/Mercedes.png" alt="Mercedes Sprinter" />
         <h3>Mercedes-Benz Sprinter</h3>
         <p>High-capacity, long-lasting van for commercial and passenger transport services.</p>
       </div>
@@ -91,7 +91,7 @@ const Import = () => {
       </div>
 
       <div class="product-card">
-        <img src="/mercedes_actors.png" alt="Mercedes Actros Truck" />
+        <img src="/Mercedes_actors.png" alt="Mercedes Actros Truck" />
         <h3>Mercedes Actros</h3>
         <p>Powerful commercial truck for logistics, goods transport, and construction materials.</p>
       </div>
