@@ -28,6 +28,9 @@
   height: 100%;
   overflow: hidden;
 }
+.slide-inner::after {
+  transition: background 0.4s ease;
+}
 
 /* ====== Inner Slide (for Interleave Effect) ====== */
 .slide-inner {
@@ -172,6 +175,14 @@ background-color: white;
   font-size: 30px;
   margin: auto 0px;
 }
+.slide-inner h2{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.3);
+}
 .herosection{
   height: 80vh;
   width: 100%;
@@ -202,6 +213,10 @@ background-color: white;
   90%{
     background-image: url( /public/container-shipping-change-over-time.jpg);
   }
+}
+.p{
+  font-size: 15px !important;
+ margin-bottom: 20px; 
 }
 .ovalay{
   position:absolute;
@@ -323,7 +338,7 @@ background-color: white;
 }
 .ovalays {
   position: relative;
-  background: url('/public/best_sea.jpg') center/cover no-repeat;
+  background: url('/public/vission.jpg') center/cover no-repeat;
   height: 80vh; /* adjust as needed */
   background-attachment: fixed;
   display: flex;
@@ -1014,6 +1029,7 @@ background-color: white;
   line-height: 1.7;
   text-align: justify;
 }
+
 
 
 
