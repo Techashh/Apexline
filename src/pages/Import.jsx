@@ -6,16 +6,18 @@ const Import = () => {
   return (
     <div>
       <Header />
-       <div class="import-section">
-    <h1>IMPORT</h1>
-    <div class="breadcrumb">
-      <a href="#">Home</a> <span>&gt;</span> <a href="#">Import</a>
-    </div>
-    <div class="search-bar">
-      <input type="text" placeholder="Keywords" />
-      <button>SEARCH</button>
-    </div>
-  </div>
+       <div className="import-section">
+        <h1>IMPORT</h1>
+          <div className="import-section-inner">
+        <div className="breadcrumb">
+          <a href="#">Home</a> <span>&gt;</span> <a href="#">ImportTry                                                                                                                                                                                                                                                                                                                                                                                       </a>
+        </div>
+        <div className="search-bar">
+          <input type="text" placeholder="Keywords" />
+          <button>SEARCH</button>
+        </div>
+      </div>
+      </div>
 
   <section class="product-section">
     <h2>CARS, BUSES & TRUCKS</h2>

@@ -76,27 +76,6 @@ const Herosection = () => {
     };
   }, []);
 
-  //hero section slider //
-  // const services = [
-  //   {
-  //     title: "OCEAN FREIGHT SHIPPING",
-  //     description:
-  //       "Reliable sea freight solutions connecting major ports worldwide with speed and safety.",
-  //     image: "/images/ship.jpg",
-  //   },
-  //   {
-  //     title: "AIR FREIGHT SHIPPING",
-  //     description:
-  //       "Fast and secure air cargo transport for urgent and high-value shipments.",
-  //     image: "/images/air.jpg",
-  //   },
-  //   {
-  //     title: "CAR SHIPPING",
-  //     description:
-  //       "Professional vehicle transport services with full tracking and insurance.",
-  //     image: "/images/truck.jpg",
-  //   },
-  // ];
 
   return (
     <>
@@ -104,23 +83,31 @@ const Herosection = () => {
  <div className="swiper-container">
         <div className="swiper-wrapper">
           {/* Slide 1 */}
-          <div className="swiper-slide">
-            <div className="slide-inner">
-              <h2>Welcome to Our Website</h2>
-            </div>
-          </div>
+        <div className="swiper-slide">
+  <div className="slide-inner">
+  
+    <h2>Connecting Nigeria to the World <br></br>Through Food & Automobiles </h2>
+  
+
+
+  </div>
+</div>
+
 
           {/* Slide 2 */}
           <div className="swiper-slide">
             <div className="slide-inner">
-              <h2>Beautiful Design, Powerful Code</h2>
+              
+                <h2>Exporting Nigerian Taste. Importing Quality Cars.</h2>
+                
+              
             </div>
           </div>
 
           {/* Slide 3 */}
           <div className="swiper-slide">
             <div className="slide-inner">
-              <h2>Scroll, Swipe, and Enjoy</h2>
+              <h2>Global Logistics Made Simple</h2>
             </div>
           </div>
         </div>
@@ -131,23 +118,11 @@ const Herosection = () => {
       </div>
 
 
-      {/* <div className='ovalay'></div>
-      <div className="herosection">
-        <section className="hero">
-          <div className="hero-content">
-            <h1>Connecting <span> Businesses</span> Across Borders</h1>
-            <p>
-              We provide reliable import and export solutions that move your goods
-              swiftly and safely — empowering your business to grow globally with
-              ease.
-            </p>
-            <div className="hero-buttons">
-              <button className="btn-primary">Get a Quote</button>
-              <button className="btn-secondary">Explore Services</button>
-            </div>
-          </div>
-        </section>
-      </div> */}
+
+
+
+      
+
 
       {/* ABOUT SECTION */}
       <section className="features">
@@ -291,13 +266,11 @@ const Herosection = () => {
               <h2>WHY CHOOSE US?</h2>
               <div className="underline"></div>
               <p>
-                There are many variations of passages of Lorem Ipsum available, but the
-                majority have suffered alteration in some form, by injected humour.
-              </p>
+                We provide a smooth and reliable import and export service for customers worldwide. 
+                Our team exports authentic Nigerian food items with proper sourcing, secure packaging, and fast delivery, ensuring they arrive fresh and safely to your destination. </p>
               <p>
-                The point of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, making it look like readable English.
-              </p>
+               We also help clients import clean, verified cars from trusted markets, handling logistics, customs, and paperwork for a stress-free experience.
+               With transparent pricing, real-time tracking, and responsive customer support, we ensure every order is delivered efficiently and with complete peace of mind. </p>
               <a href="#" className="read-more">READ MORE →</a>
             </div>
 

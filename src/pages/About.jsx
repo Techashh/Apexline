@@ -15,14 +15,16 @@ const About = () => {
 
       {/* Top Import Banner */}
       <div className="import-section">
-        <h1>IMPORT</h1>
+        <h1>ABOUT US</h1>
+          <div className="import-section-inner">
         <div className="breadcrumb">
-          <a href="#">Home</a> <span>&gt;</span> <a href="#">Import</a>
+          <a href="#">Home</a> <span>&gt;</span> <a href="#">About Us</a>
         </div>
         <div className="search-bar">
           <input type="text" placeholder="Keywords" />
           <button>SEARCH</button>
         </div>
+      </div>
       </div>
 
       {/* Main Switch Section */}
@@ -67,7 +69,7 @@ const About = () => {
               <p className='p'> At <strong>Apexline Import and Export</strong>, we specialize in creating strong international trade connections that empower businesses to thrive beyond borders. 
               Our focus is on exporting high-quality agricultural produce, foodstuffs, and raw materials from Nigeria to countries around the world, while also importing essential goods, equipment,
                and innovative products that support industries and improve livelihoods locally. 
-               We handle every stage of the process — from sourcing and packaging to shipping, documentation, and customs clearance — ensuring a smooth and transparent trade experience for all our clients. 
+               We handle every stage of the process from sourcing and packaging to shipping, documentation, and customs clearance — ensuring a smooth and transparent trade experience for all our clients. 
                With Apexline, businesses gain a trusted logistics partner that values efficiency, quality, and integrity. 
                 Our operations are driven by a vision to make global trading simpler, faster, and more reliable. We connect local producers to international buyers, open access to global markets,
                  and contribute to the sustainable growth of the Nigerian economy. Whether you are looking to import essential products or export premium goods, Apexline delivers a seamless, professional, and dependable solution every time. </p>

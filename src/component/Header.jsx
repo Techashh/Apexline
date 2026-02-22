@@ -1,21 +1,31 @@
-import React from 'react'
-import { Link } from 'react-router'
-import img from "/public/logo.png"
-
+import React, { useState } from "react";
+import { Link } from "react-router";
+import img from "/public/logo.png";
 
 const Header = () => {
-  return (
-    <div id="header">
-        <img src={img} alt="logo" id="logo"/>
-        <p><b><i>APEXLINE</i></b></p>
-        <Link to={"/"} class="header_link" style={{marginLeft:"300px"}}>Home </Link>
-        <Link to={"/About"} class="header_link">About us </Link>
-        <Link to={"/Import"} class="header_link">Import </Link>
-        <Link to={"/Exportcomponent"}class="header_link">Export </Link>
-        <Link class="header_link">Products </Link>
-        <Link class="header_link" id="a1">Contact Support</Link>
-    </div>
-  )
-}
+  const [open, setOpen] = useState(false);
 
-export default Header
+  return (
+    <header className="header-container">
+      <div className="logo-section">
+        <img src={img} alt="logo" id="logo" />
+        <p><b><i>APEXLINE</i></b></p>
+      </div>
+
+      <div className="hamburger" onClick={() => setOpen(!open)}>
+        ☰
+      </div>
+
+      <nav className={`nav-links ${open ? "open" : ""}`}>
+        <Link to="/" className="header_link">Home</Link>
+        <Link to="/About" className="header_link">About us</Link>
+        <Link to="/Import" className="header_link">Import</Link>
+        <Link to="/Exportcomponent" className="header_link">Export</Link>
+        <Link className="header_link">Products</Link>
+        <Link className="header_link" id="a1">Contact Support</Link>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;

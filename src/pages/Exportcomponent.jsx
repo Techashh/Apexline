@@ -7,16 +7,19 @@ const Exportcomponent = () => {
     <div>
         <Header/>
 
-       <div class="export-section">
-    <h1>EXPORT</h1>
-    <div class="breadcrumb">
-      <a href="#">Home</a> <span>&gt;</span> <a href="#">export</a>
-    </div>
-    <div class="search-bar">
-      <input type="text" placeholder="Keywords" />
-      <button>SEARCH</button>
-    </div>
-  </div>
+        {/* Top Import Banner */}
+      <div className="import-section">
+        <h1>EXPORT</h1>
+          <div className="import-section-inner">
+        <div className="breadcrumb">
+          <a href="#">Home</a> <span>&gt;</span> <a href="#">Export</a>
+        </div>
+        <div className="search-bar">
+          <input type="text" placeholder="Keywords" />
+          <button>SEARCH</button>
+        </div>
+      </div>
+      </div>
 
   <section class="product-section">
     <h2>FOOD AND BEVERAGE</h2>
@@ -30,7 +33,7 @@ const Exportcomponent = () => {
       </div>
 
       <div class="product-card">
-        <img src="/palm-oil-food.jpg" alt="Palm Oil"/>
+        <img src="/palm-oil-food.png" alt="Palm Oil"/>
         <h3>Palm Oil</h3>
         <p>Pure, natural red palm oil from Nigeria — used for cooking and export worldwide.</p>
       </div>
