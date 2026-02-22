@@ -10,7 +10,7 @@ const Import = () => {
         <h1>IMPORT</h1>
           <div className="import-section-inner">
         <div className="breadcrumb">
-          <a href="#">Home</a> <span>&gt;</span> <a href="#">ImportTry                                                                                                                                                                                                                                                                                                                                                                                       </a>
+          <a href="#">Home</a> <span>&gt;</span> <a href="#">Import</a>
         </div>
         <div className="search-bar">
           <input type="text" placeholder="Keywords" />
